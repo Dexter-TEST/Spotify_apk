@@ -1,0 +1,101 @@
+package p.l31;
+import p.sc;
+import p.p31;
+import com.spotify.allboarding.allboardingimpl.AllboardingActivity;
+import java.lang.Object;
+import p.ta3;
+import p.z84;
+import p.tm5;
+import p.nd1;
+import p.rs3;
+import p.u36;
+import p.g01;
+import p.ox7;
+import p.ub;
+import p.v9;
+import p.zk;
+import p.cy5;
+import p.nm5;
+import p.y9;
+import p.gg1;
+import com.spotify.allboarding.entrypointlite.AllboardingFollowManagerImpl;
+import p.fj4;
+import p.bb7;
+import p.ds3;
+import com.spotify.allboarding.entrypointlite.AllboardingDoneImpl;
+import p.w12;
+import p.ek3;
+import p.qb;
+import p.y37;
+import p.cp3;
+import io.reactivex.rxjava3.core.Observable;
+import p.s36;
+import p.co5;
+import io.reactivex.rxjava3.core.Scheduler;
+import p.id;
+import p.v26;
+import p.nc1;
+import p.ta;
+import p.ra;
+import p.va;
+import p.v76;
+import p.w76;
+import p.ez3;
+import p.ql6;
+import p.vv6;
+import p.wv6;
+import p.pt0;
+import p.tt0;
+import p.b65;
+import p.b07;
+
+public final class l31 implements sc	// class@001cd4 from classes.dex
+{
+    public final AllboardingActivity a;
+    public final p31 b;
+    public ta3 c;
+    public tm5 t;
+    public z84 v;
+    public z84 w;
+    public g01 x;
+    public tm5 y;
+
+    public void l31(p31 p0,AllboardingActivity p1){
+       super();
+       this.b = p0;
+       this.a = p1;
+       ta3 ota3 = ta3.a(p1);
+       this.c = ota3;
+       this.t = nd1.b(new z84(p0.s2, ota3, 2));
+       this.v = new z84(p0.K1, p0.q2, 3);
+       l31 tc = this.c;
+       this.w = new z84(p0.h3, tc, 1);
+       this.x = new g01(tc, p0.E4, new u36(new rs3(p0.U1, 15), 12), 3);
+       this.y = nd1.b(ox7.C);
+    }
+    public final void a(Object p0){
+       l31 ol31 = this;
+       int i = p0;
+       l31 b = ol31.b;
+       l31 a = ol31.a;
+       v9 v12 = new v9(new zk(z84.b(b.K1.get(), b.q2.get()), new gg1()), ol31.t.get(), new fj4(), new bb7(new ds3()), new AllboardingDoneImpl(b.h3.get(), a), new qb(b.X1.get()), new cp3(), b.D4.get());
+       Scheduler b1 = s36.b;
+       co5.n(b1);
+       i.Q = new ub(v12, b1, id.a(), a);
+       i.S = b.e();
+       l31 v = ol31.v;
+       p31 e4 = b.E4;
+       p31 u1 = b.U1;
+       p31 d4 = b.D4;
+       l31 y = ol31.y;
+       p0 = a;
+       l31 ol311 = ol31.c;
+       ra a1 = new ra(v, ol31.w, ol31.t, e4, b.X1, u1, d4, ol31.x, y, b.e1, ol311);
+       pt0 v1 = new pt0(u1, d4, e4, ol311);
+       tt0 ott0 = new tt0(v1);
+       ta v2 = new ta(new va(p0), new w76(new v76(v, b.A1, e4)), new ql6(new ez3()), new wv6(new vv6(e4, u1)), ott0);
+       i.T = v2;
+       i.U = y.get();
+       i.V = new b07(21);
+    }
+}

@@ -1,0 +1,123 @@
+package p.w94;
+import p.ad5;
+import p.ew0;
+import p.r94;
+import p.ga4;
+import p.e61;
+import p.x15;
+import p.al5;
+import p.rp3;
+import p.ti3;
+import java.lang.Object;
+import p.aq6;
+import p.sg2;
+import p.sb4;
+import p.s36;
+import p.px6;
+import io.reactivex.rxjava3.core.Scheduler;
+import p.bm;
+import com.spotify.mobius.rx3.RxMobius$SubtypeEffectHandlerBuilder;
+import com.spotify.mobius.rx3.RxMobius;
+import p.i94;
+import p.xg1;
+import java.lang.Class;
+import io.reactivex.rxjava3.core.ObservableTransformer;
+import p.hh1;
+import p.gh1;
+import p.s81;
+import p.yh1;
+import p.dl4;
+import p.ah1;
+import p.dh1;
+import p.wg1;
+import p.vg1;
+import p.s02;
+import p.ai1;
+import p.zh1;
+import p.xo0;
+import com.spotify.mobius.rx3.RxConnectables;
+import p.kd7;
+import p.lb4;
+import p.mi;
+import p.xk5;
+import java.lang.String;
+import p.ms3;
+import p.qb4;
+import p.as;
+import java.lang.Boolean;
+import p.vt;
+import p.xz3;
+import p.j93;
+import p.er7;
+
+public final class w94	// class@002af0 from classes.dex
+{
+    public final ew0 a;
+    public final r94 b;
+    public final ga4 c;
+    public final e61 d;
+    public final x15 e;
+    public final al5 f;
+    public final rp3 g;
+    public final ti3 h;
+    public final ti3 i;
+    public final ti3 j;
+    public final ti3 k;
+    public final ti3 l;
+    public final ti3 m;
+    public final ti3 n;
+    public final ti3 o;
+    public final ti3 p;
+    public final ti3 q;
+    public final ti3 r;
+    public static final ad5 s;
+    public static final ad5 t;
+
+    static {
+       w94.s = new ad5(12);
+       w94.t = new ad5(13);
+    }
+    public void w94(ew0 p0,r94 p1,ga4 p2,e61 p3,x15 p4,al5 p5,rp3 p6,ti3 p7,ti3 p8,ti3 p9,ti3 p10,ti3 p11,ti3 p12,ti3 p13,ti3 p14,ti3 p15,ti3 p16,ti3 p17){
+       int i = this;
+       super();
+       i.a = p0;
+       i.b = p1;
+       i.c = p2;
+       i.d = p3;
+       i.e = p4;
+       i.f = p5;
+       i.g = p6;
+       i.h = p7;
+       i.i = p8;
+       i.j = p9;
+       i.k = p10;
+       i.l = p11;
+       i.m = p12;
+       i.n = p13;
+       i.o = p14;
+       i.p = p15;
+       i.q = p16;
+       i.r = p17;
+    }
+    public final sb4 a(aq6 p0,sg2 p1,sg2 p2,sg2 p3){
+       px6 opx6 = new px6(s36.c, 1);
+       RxMobius$SubtypeEffectHandlerBuilder subtypeEffec = RxMobius.a();
+       subtypeEffec.g(xg1.class, new i94(p1, 2));
+       subtypeEffec.g(hh1.class, new i94(p2, 1));
+       subtypeEffec.g(gh1.class, new i94(p3, 0));
+       subtypeEffec.g(yh1.class, new s81(12, this.c));
+       w94 tf = this.f;
+       subtypeEffec.g(ah1.class, new dl4(this.e, 3, tf));
+       subtypeEffec.g(dh1.class, new dl4(tf, 4, this.g));
+       subtypeEffec.g(wg1.class, new s81(10, this.d));
+       subtypeEffec.g(vg1.class, new s81(11, this.a));
+       subtypeEffec.g(ai1.class, new s02(15));
+       subtypeEffec.g(zh1.class, new s02(16));
+       as uoas = new as(1);
+       Boolean fALSE = Boolean.FALSE;
+       uoas.a = fALSE;
+       uoas.k = fALSE;
+       uoas.b = p0;
+       return new sb4(mi.A(new bm(10), RxConnectables.a(subtypeEffec.h())).a(opx6).b(opx6).e(ms3.h("Metadata")), uoas.b(), new bm(5), new xz3());
+    }
+}
